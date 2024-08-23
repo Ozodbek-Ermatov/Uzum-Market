@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uzum Market - O'zbekistondanolinadigan</title>
+    <link rel="website icon" type="png" href="data:image/svg+xml,%3Csvg%20width%3D'36'%20height%3D'36'%20viewBox%3D'0%200%2036%2036'%20fill%3D'none'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%20%3Cg%20clip-path%3D'url(%23clip0_2057_199813)'%3E%20%3Cmask%20id%3D'mask0_2057_199813'%20style%3D'mask-type%3Aalpha'%20maskUnits%3D'userSpaceOnUse'%20x%3D'0'%20y%3D'0'%20width%3D'36'%20height%3D'36'%3E%20%3Cpath%20d%3D'M18%200C33%200%2036%203%2036%2018C36%2033%2033%2036%2018%2036C3%2036%200%2033%200%2018C0%203%203%200%2018%200Z'%20fill%3D'white'%2F%3E%20%3C%2Fmask%3E%20%3Cg%20mask%3D'url(%23mask0_2057_199813)'%3E%20%3Crect%20width%3D'36'%20height%3D'36'%20fill%3D'%23FFFF00'%2F%3E%20%3Cpath%20d%3D'M1.7424%208.42296C1.3915%209.57087%201.63459%2010.9497%202.12075%2013.7073L3.09512%2019.2342C3.4556%2021.2789%203.68243%2022.5655%204.07004%2023.4849L0%2024.2027V36H4.5L29.8228%2031.532C33.1937%2030.9375%2035.4445%2027.7225%2034.8501%2024.351C34.5822%2022.831%2033.7816%2021.5386%2032.6742%2020.6322C32.9649%2020.2115%2033.1912%2019.7461%2033.3425%2019.251C33.6934%2018.1031%2033.4503%2016.7242%2032.9642%2013.9666L31.9898%208.43977C31.5036%205.68212%2031.2605%204.30329%2030.5383%203.34464C29.9029%202.50138%2029.017%201.88094%2028.0074%201.57223C26.8597%201.22128%2025.4811%201.46441%2022.7239%201.95065L8.6088%204.43993C5.8516%204.92618%204.47301%205.16931%203.51451%205.8917C2.67139%206.52714%202.05105%207.41323%201.7424%208.42296Z'%20fill%3D'%237000FF'%2F%3E%20%3Cpath%20d%3D'M17.9998%206.96094C17.5841%206.96094%2017.1755%206.97855%2016.7703%207.01378L16.7633%2012.7266H19.2293V7.01378C18.8241%206.96094%2018.4155%206.96094%2017.9998%206.96094Z'%20fill%3D'white'%2F%3E%20%3Cpath%20d%3D'M22.8722%2019.3328C24.1644%2018.0406%2024.8904%2016.2879%2024.8904%2014.4604V10.3352C23.9968%2010.0367%2023.0833%209.80122%2022.1567%209.63061V14.4357C22.1567%2017.8916%2020.6912%2019.6988%2017.9998%2019.6988C15.3084%2019.6988%2013.8464%2017.8916%2013.8464%2014.4357V9.63061C12.9187%209.80166%2012.0041%2010.0371%2011.1092%2010.3352V14.4604C11.1092%2016.2879%2011.8351%2018.0406%2013.1274%2019.3328C14.4196%2020.625%2016.1723%2021.375%2017.9998%2021.375C19.8273%2021.375%2021.58%2020.625%2022.8722%2019.3328Z'%20fill%3D'white'%2F%3E%20%3Cpath%20d%3D'M20.4184%2028.8032H21.5025V26.9742L23.1982%2028.8032H24.477L22.7257%2026.8911L24.338%2025.0621H23.0592L21.5025%2026.808V23.8983H20.4184V28.8032Z'%20fill%3D'white'%2F%3E%20%3Cpath%20d%3D'M7.32527%2025.6719C7.60325%2025.2562%208.10362%2024.9791%208.79858%2024.9791C9.96612%2024.9791%2010.5221%2025.7273%2010.5221%2026.6418V28.831H9.43795V26.8081C9.43795%2026.3647%209.18776%2025.9767%208.65959%2025.9767C8.13142%2025.9767%207.88124%2026.337%207.88124%2026.7804V28.831H6.7971V26.7804C6.7971%2026.337%206.51911%2025.9767%205.99094%2025.9767C5.46277%2025.9767%205.24039%2026.3647%205.24039%2026.8081V28.831H4.15625V26.6418C4.15625%2025.7273%204.74002%2024.9791%205.90755%2024.9791C6.49132%2024.9791%207.07508%2025.2562%207.32527%2025.6719Z'%20fill%3D'white'%2F%3E%20%3Cpath%20fill-rule%3D'evenodd'%20clip-rule%3D'evenodd'%20d%3D'M15.4981%2027.5009V25.0622H14.4139V25.6442C14.1915%2025.2839%2013.7746%2024.9791%2013.0518%2024.9791C11.8009%2024.9791%2011.1615%2025.949%2011.1615%2026.9189C11.1337%2027.9165%2011.8565%2028.8864%2012.9962%2028.8864C13.6078%2028.8864%2014.1637%2028.6093%2014.4139%2028.1382C14.5251%2028.4431%2014.8031%2028.7756%2015.3591%2028.7756H15.9706V27.8611H15.8038C15.5814%2027.9165%2015.4981%2027.8334%2015.4981%2027.5009ZM13.2742%2027.972C12.6626%2027.972%2012.19%2027.5563%2012.19%2026.9466C12.19%2026.3647%2012.6626%2025.949%2013.2742%2025.949C13.9135%2025.949%2014.3583%2026.3647%2014.3583%2026.9466C14.3861%2027.5286%2013.9135%2027.972%2013.2742%2027.972Z'%20fill%3D'white'%2F%3E%20%3Cpath%20d%3D'M16.8881%2028.8033H17.9722V27.1406C17.9722%2026.5032%2018.4448%2026.0876%2019.0286%2026.0876H19.7513V24.9791H19.2232C18.556%2024.9791%2018.0834%2025.5333%2017.9722%2025.8659V25.0622H16.8881V28.8033Z'%20fill%3D'white'%2F%3E%20%3Cpath%20fill-rule%3D'evenodd'%20clip-rule%3D'evenodd'%20d%3D'M25.6721%2027.2237C25.6721%2027.6394%2025.8945%2028.0551%2026.5895%2028.0551C27.2288%2028.0551%2027.3122%2027.6671%2027.3122%2027.6671H28.5076C28.5076%2027.6671%2028.3964%2028.8864%2026.5895%2028.8864C25.3386%2028.8864%2024.5324%2028.1936%2024.5324%2026.9189C24.5324%2025.6719%2025.3108%2024.9791%2026.5617%2024.9791C27.7848%2024.9791%2028.591%2025.6719%2028.591%2026.9189C28.591%2027.0575%2028.5632%2027.196%2028.5632%2027.196H25.6721V27.2237ZM25.6999%2026.5587H27.4512C27.4512%2026.2538%2027.2844%2025.8105%2026.5895%2025.8105C25.8945%2025.8382%2025.6999%2026.2538%2025.6999%2026.5587Z'%20fill%3D'white'%2F%3E%20%3Cpath%20d%3D'M31.1762%2027.8611C30.8148%2027.8611%2030.6758%2027.6948%2030.6758%2027.1683V25.8659H31.8434V24.9791H30.6758V24.2309H30.0921L29.0357%2025.2285V25.8382H29.5917V27.3069C29.5917%2028.3599%2030.1199%2028.8033%2031.1762%2028.8033H31.8434V27.8611H31.1762Z'%20fill%3D'white'%2F%3E%20%3C%2Fg%3E%20%3C%2Fg%3E%20%3Cdefs%3E%20%3CclipPath%20id%3D'clip0_2057_199813'%3E%20%3Crect%20width%3D'36'%20height%3D'36'%20fill%3D'white'%2F%3E%20%3C%2FclipPath%3E%20%3C%2Fdefs%3E%20%3C%2Fsvg%3E">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="website icon" type="png" href="uzum.png">
+</head>
+
+<body>
+
+    <div class="navbar_bottom">
+        <div class="navbarBottom_card">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>Shahar: <span style="border-bottom: 1px solid black;">Toshkent</span> Topshirish punktlari</p>
+        </div>
+        <div class="navbarBottom_card">
+
+        </div>
+        <div class="navbarBottom_card">
+            <p>Uzumda soting Savol-javoblar Buyurtmalarim</p>
+        </div>
+    </div>
+
+    <div class="navban_auto">
+
+        <div class="navbar">    
+            <div class="navlogo">
+                <div class="logoimg"></div>
+                <div class="logotext">uzum market</div>
+            </div>
+
+            <div class="katalog">
+                <!--i-->
+                <img src="https://cdn-icons-png.freepik.com/512/10742/10742997.png" alt="">
+                <span>Katalog</span>
+            </div>
+
+            <div class="search_form">
+                <input class="sform" type="text" placeholder="Mahsulot va Turkumlar izlash"> <div class="lupa"><i class="fa-solid fa-magnifying-glass"></i> </div>
+            </div>
+
+            <div class="acc">
+                <div class="tizim"><i class="fa-regular fa-user"></i> Tizimga kirish</div>
+                <div class="tizim1"><i class="fa-regular fa-heart"></i> Sevimlilar</div>
+                <div class="tizim2"><i class="fa-solid fa-bag-shopping"></i> Savat</div>
+            </div>
+        </div>
+
+        <div class="navbar_top">
+
+            <span class="navbar2"><img class="uzum_rasm" src="https://static.uzum.uz/fast_categories/bts.png" alt="">Maktab bozori</span>
+            <span class="navbar2"><img class="uzum_rasm" src="https://static.uzum.uz/fast_categories/%D0%A7%D0%B8%D0%BB%D0%BB%D1%8F.png" alt="">Yozgi savdo</span>
+            <span class="navbar2"><img class="uzum_rasm" src="https://static.uzum.uz/fast_categories/school-2.png" alt="">Kansellariya</span>
+            <span class="navbar2"><img class="uzum_rasm" src="https://static.uzum.uz/fast_categories/nasiya_fc.png" alt="">Nasiya</span>
+    
+            <span class="navbar3">Elektronika</span>
+            <span class="navbar3">Maishiy texnika</span>
+            <span class="navbar3">Kiyim</span>
+            <span class="navbar3">Poyabzallar</span>
+            <span class="navbar3">Aksessuarlar</span>
+            <span class="navbar3">Salomatlik</span>
+
+        </div>
+        
+        <br>
+        <br>
+
+        <div class="banner">
+        <img style="width: 100%; border-radius: 24px;" src="https://images.uzum.uz/cq1uvd35qt1gj8ddqd4g/main_page_banner.jpg" alt="">
+        
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <span>Mashxur <i class="fa-solid fa-angle-right"></i></span>
+        <br>
+        <br>
+        <br>
+        <div class="carts">
+            <div class="cartss">
+                <img src="https://images.uzum.uz/cqjmpf4sslomdvnikp3g/t_product_540_high.jpg" alt="">
+                <br>
+                <span class="mahsulot">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, tempore!</span>
+                <br>
+                <br>
+                <span class="★">★4.9(103 sharhlar)</span>
+                <br>
+                <br>
+                <mark>10 383 so'm/oyiga</mark>
+                <br>
+                <br>
+                <br>
+                <span class="eskinarx"><del>142 000</del></span>
+                <br>
+                <span class="yanginarx">89 000 so'm</span>
+                <div class="salom"><img style="width: 35px; height: 35px; margin-left: 260px; margin-top: -50px;" src="https://icons.veryicon.com/png/o/miscellaneous/template-4/add-to-cart-4.png" alt=""></div>
+            </div>
+            <div class="cartss">
+                <img src="https://images.uzum.uz/cqrllenfrr8a72r7vg50/t_product_540_high.jpg" alt="">
+                <br>
+                <span class="mahsulot">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, tempore!</span>
+                <br>
+                <br>
+                <span class="★">★2.7(103 sharhlar)</span>
+                <br>
+                <br>
+                <mark>20 000 so'm/oyiga</mark>
+                <br>
+                <br>
+                <br>
+                <span class="eskinarx"><del>200 000</del></span>
+                <br>
+                <span class="yanginarx">100 000 so'm</span>
+                <div class="salom"><img style="width: 35px; height: 35px; margin-left: 260px; margin-top: -50px;" src="https://icons.veryicon.com/png/o/miscellaneous/template-4/add-to-cart-4.png" alt=""></div>
+            </div>
+            <div class="cartss">
+                <img src="https://images.uzum.uz/cquup3niraat934pfb2g/t_product_540_high.jpg" alt="">
+                <br>
+                <span class="mahsulot">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, tempore!</span>
+                <br>
+                <br>
+                <span class="★">★1.7(103 sharhlar)</span>
+                <br>
+                <br>
+                <mark>34 999 so'm/oyiga</mark>
+                <br>
+                <br>
+                <br>
+                <span class="eskinarx"><del>245 233</del></span>
+                <br>
+                <span class="yanginarx">12 300 so'm</span>
+                <div class="salom"><img style="width: 35px; height: 35px; margin-left: 260px; margin-top: -50px;" src="https://icons.veryicon.com/png/o/miscellaneous/template-4/add-to-cart-4.png" alt=""></div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+                
+        </div>
+
+
+        <div class="carts">
+            <div class="cartss">
+                <img src="https://images.uzum.uz/cqevjcsqvss6ad8j49eg/t_product_540_high.jpg" alt="">
+                <br>
+                <span class="mahsulot">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, tempore!</span>
+                <br>
+                <br>
+                <span class="★">★5.0(103 sharhlar)</span>
+                <br>
+                <br>
+                <mark>34 567 so'm/oyiga</mark>
+                <br>
+                <br>
+                <br>
+                <span class="eskinarx"><del>300 000</del></span>
+                <br>
+                <span class="yanginarx">120 600 so'm</span>
+                <div class="salom"><img style="width: 35px; height: 35px; margin-left: 260px; margin-top: -50px;" src="https://icons.veryicon.com/png/o/miscellaneous/template-4/add-to-cart-4.png" alt=""></div>
+            </div>
+            <div class="cartss">
+                <img src="https://images.uzum.uz/cppdaq36eisq2rkcob1g/t_product_540_high.jpg" alt="">
+                <br>
+                <span class="mahsulot">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, tempore!</span>
+                <br>
+                <br>
+                <span class="★">★4.1(103 sharhlar)</span>
+                <br>
+                <br>
+                <mark>99 100 so'm/oyiga</mark>
+                <br>
+                <br>
+                <br>
+                <span class="eskinarx"><del>1 600 000</del></span>
+                <br>
+                <span class="yanginarx">876 000 so'm</span>
+                <div class="salom"><img style="width: 35px; height: 35px; margin-left: 260px; margin-top: -50px;" src="https://icons.veryicon.com/png/o/miscellaneous/template-4/add-to-cart-4.png" alt=""></div>
+            </div>
+            <div class="cartss">
+                <img src="https://images.uzum.uz/cqrr214sslomdvnkeog0/t_product_540_high.jpg" alt="">
+                <br>
+                <span class="mahsulot">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, tempore!</span>
+                <br>
+                <br>
+                <span class="★">★4.0(103 sharhlar)</span>
+                <br>
+                <br>
+                <mark>10 383 so'm/oyiga</mark>
+                <br>
+                <br>
+                <br>
+                <span class="eskinarx"><del>142 000</del></span>
+                <br>
+                <span class="yanginarx">89 000 so'm</span>
+                <div class="salom"><img style="width: 35px; height: 35px; margin-left: 260px; margin-top: -50px;" src="https://icons.veryicon.com/png/o/miscellaneous/template-4/add-to-cart-4.png" alt=""></div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+                
+        </div>    
+
+        <div class="container text-center">
+            <h1 class="">
+              <span class="a"></span><span class="b"></span><span class="c"></span><span class="d"></span><span class="e"></span><span class="f"></span><span class="a"></span> </h1>
+            <a class="rainbow rainbow-1">Yana ko'rsatish 10<a/>
+              
+        </div>
+        <br>
+        <br>
+        <br>
+        <br><br>
+        <br>
+        <img style="width: 100%; border-radius: 24px;" src="https://images.uzum.uz/cqteig5bntafgos1tjpg/main_page_banner.jpg" alt="">
+    
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <span>Maktab bozori <i class="fa-solid fa-angle-right"></i></span>
+        <br>
+        <br>
+        <br>
+        <div class="carts">
+            <div class="cartss">
+                <img src="https://images.uzum.uz/cqlng9kqvsse8leu4ko0/t_product_540_high.jpg" alt="">
+                <br>
+                <span class="mahsulot">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, tempore!</span>
+                <br>
+                <br>
+                <span class="★">★3.2(103 sharhlar)</span>
+                <br>
+                <br>
+                <mark>3 987 so'm/oyiga</mark>
+                <br>
+                <br>
+                <br>
+                <span class="eskinarx"><del>12 000</del></span>
+                <br>
+                <span class="yanginarx">9 000 so'm</span>
+                <div class="salom"><img style="width: 35px; height: 35px; margin-left: 260px; margin-top: -50px;" src="https://icons.veryicon.com/png/o/miscellaneous/template-4/add-to-cart-4.png" alt=""></div>
+            </div>
+            <div class="cartss">
+                <img src="https://images.uzum.uz/ck1descvutvccfo27mn0/t_product_540_high.jpg" alt="">
+                <br>
+                <span class="mahsulot">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, tempore!</span>
+                <br>
+                <br>
+                <span class="★">★4.7(103 sharhlar)</span>
+                <br>
+                <br>
+                <mark>12 000 so'm/oyiga</mark>
+                <br>
+                <br>
+                <br>
+                <span class="eskinarx"><del>233 000</del></span>
+                <br>
+                <span class="yanginarx">109 000 so'm</span>
+                <div class="salom"><img style="width: 35px; height: 35px; margin-left: 260px; margin-top: -50px;" src="https://icons.veryicon.com/png/o/miscellaneous/template-4/add-to-cart-4.png" alt=""></div>
+            </div>
+            <div class="cartss">
+                <img src="https://images.uzum.uz/cpg0ivbmdtjnp738cg00/t_product_540_high.jpg" alt="">
+                <br>
+                <span class="mahsulot">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, tempore!</span>
+                <br>
+                <br>
+                <span class="★">★4.7(103 sharhlar)</span>
+                <br>
+                <br>
+                <mark>78 679 so'm/oyiga</mark>
+                <br>
+                <br>
+                <br>
+                <span class="eskinarx"><del>245 233</del></span>
+                <br>
+                <span class="yanginarx">12 300 so'm</span>
+                <div class="salom"><img style="width: 35px; height: 35px; margin-left: 260px; margin-top: -50px;" src="https://icons.veryicon.com/png/o/miscellaneous/template-4/add-to-cart-4.png" alt=""></div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+                
+        </div>
+        <br>
+        <br>
+        <br><br>
+        <img style="width: 100%; border-radius: 24px;" src="https://images.uzum.uz/cqt0qp7iraat934ovf6g/main_page_banner.jpg" alt="">
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <span>Katta savdo <i class="fa-solid fa-angle-right"></i></span>
+        <br>
+        <br>
+        <br>
+        <div class="carts">
+            <div class="cartss">
+                <img src="https://images.uzum.uz/cpgrkavfrr82f0a5moug/t_product_540_high.jpg" alt="">
+                <br>
+                <span class="mahsulot">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, tempore!</span>
+                <br>
+                <br>
+                <span class="★">★4.7(103 sharhlar)</span>
+                <br>
+                <br>
+                <mark>123 000 so'm/oyiga</mark>
+                <br>
+                <br>
+                <br>
+                <span class="eskinarx"><del>2 110 000</del></span>
+                <br>
+                <span class="yanginarx">1 008 000 so'm</span>
+                <div class="salom"><img style="width: 35px; height: 35px; margin-left: 260px; margin-top: -50px;" src="https://icons.veryicon.com/png/o/miscellaneous/template-4/add-to-cart-4.png" alt=""></div>
+            </div>
+            <div class="cartss">
+                <img src="https://images.uzum.uz/cpelpfffrr82f0a55gu0/t_product_540_high.jpg" alt="">
+                <br>
+                <span class="mahsulot">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, tempore!</span>
+                <br>
+                <br>
+                <span class="★">★4.7(103 sharhlar)</span>
+                <br>
+                <br>
+                <mark>38 000 so'm/oyiga</mark>
+                <br>
+                <br>
+                <br>
+                <span class="eskinarx"><del>222 000</del></span>
+                <br>
+                <span class="yanginarx">109 000 so'm</span>
+                <div class="salom"><img style="width: 35px; height: 35px; margin-left: 260px; margin-top: -50px;" src="https://icons.veryicon.com/png/o/miscellaneous/template-4/add-to-cart-4.png" alt=""></div>
+            </div>
+            <div class="cartss">
+                <img src="https://images.uzum.uz/cqtg82dbntafgos1ublg/t_product_540_high.jpg" alt="">
+                <br>
+                <span class="mahsulot">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, tempore!</span>
+                <br>
+                <br>
+                <span class="★">★4.7(103 sharhlar)</span>
+                <br>
+                <br>
+                <mark>43 679 so'm/oyiga</mark>
+                <br>
+                <br>
+                <br>
+                <span class="eskinarx"><del>1 000 233</del></span>
+                <br>
+                <span class="yanginarx">998 300 so'm</span>
+                <div class="salom"><img style="width: 35px; height: 35px; margin-left: 260px; margin-top: -50px;" src="https://icons.veryicon.com/png/o/miscellaneous/template-4/add-to-cart-4.png" alt=""></div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+                
+        </div>
+
+        <br>
+        <img style="width: 100%; border-radius: 24px;" src="https://images.uzum.uz/cqu9fh5bntafgos25m20/main_page_banner.jpg" alt="">
+    
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <span>Yozgi kiyimlar likvidatsiyasi <i class="fa-solid fa-angle-right"></i></span>
+        <br>
+        <br>
+        <br>
+        <div class="carts">
+            <div class="cartss">
+                <img src="https://images.uzum.uz/co1vln6pom4ma10r57r0/original.jpg" alt="">
+                <br>
+                <span class="mahsulot">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, tempore!</span>
+                <br>
+                <br>
+                <span class="★">★4.7(103 sharhlar)</span>
+                <br>
+                <br>
+                <mark>123 000 so'm/oyiga</mark>
+                <br>
+                <br>
+                <br>
+                <span class="eskinarx"><del>2 110 000</del></span>
+                <br>
+                <span class="yanginarx">1 008 000 so'm</span>
+                <div class="salom"><img style="width: 35px; height: 35px; margin-left: 260px; margin-top: -50px;" src="https://icons.veryicon.com/png/o/miscellaneous/template-4/add-to-cart-4.png" alt=""></div>
+            </div>
+            <div class="cartss">
+                <img src="https://images.uzum.uz/cjitvmkjvf2lp0pnumhg/original.jpg" alt="">
+                <br>
+                <span class="mahsulot">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, tempore!</span>
+                <br>
+                <br>
+                <span class="★">★4.7(103 sharhlar)</span>
+                <br>
+                <br>
+                <mark>38 000 so'm/oyiga</mark>
+                <br>
+                <br>
+                <br>
+                <span class="eskinarx"><del>222 000</del></span>
+                <br>
+                <span class="yanginarx">109 000 so'm</span>
+                <div class="salom"><img style="width: 35px; height: 35px; margin-left: 260px; margin-top: -50px;" src="https://icons.veryicon.com/png/o/miscellaneous/template-4/add-to-cart-4.png" alt=""></div>
+            </div>
+            <div class="cartss">
+                <img src="https://images.uzum.uz/copi0s7j2e4ghqnpgbdg/original.jpg" alt="">
+                <br>
+                <span class="mahsulot">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, tempore!</span>
+                <br>
+                <br>
+                <span class="★">★4.7(103 sharhlar)</span>
+                <br>
+                <br>
+                <mark>43 679 so'm/oyiga</mark>
+                <br>
+                <br>
+                <br>
+                <span class="eskinarx"><del>1 000 233</del></span>
+                <br>
+                <span class="yanginarx">998 300 so'm</span>
+                <div class="salom"><img style="width: 35px; height: 35px; margin-left: 260px; margin-top: -50px;" src="https://icons.veryicon.com/png/o/miscellaneous/template-4/add-to-cart-4.png" alt=""></div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <img style="width: 100%; border-radius: 24px;" src="https://images.uzum.uz/cqd66gcqvss6ad8ioalg/main_page_banner.jpg" alt="">
+        <br>
+        <br>
+        <br><br>
+
+        <span>Sotuv hitlari <i class="fa-solid fa-angle-right"></i></span>
+        <br>
+        <br>
+        <br>
+        <div class="carts">
+            <div class="cartss">
+                <img src="https://images.uzum.uz/cqmc98ssslomdvnj7mhg/original.jpg" alt="">
+                <br>
+                <span class="mahsulot">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, tempore!</span>
+                <br>
+                <br>
+                <span class="★">★4.7(103 sharhlar)</span>
+                <br>
+                <br>
+                <mark>123 000 so'm/oyiga</mark>
+                <br>
+                <br>
+                <br>
+                <span class="eskinarx"><del>2 110 000</del></span>
+                <br>
+                <span class="yanginarx">1 008 000 so'm</span>
+                <div class="salom"><img style="width: 35px; height: 35px; margin-left: 260px; margin-top: -50px;" src="https://icons.veryicon.com/png/o/miscellaneous/template-4/add-to-cart-4.png" alt=""></div>
+            </div>
+            <div class="cartss">
+                <img src="https://images.uzum.uz/cqmcp0sqvsse8leu98n0/original.jpg" alt="">
+                <br>
+                <span class="mahsulot">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, tempore!</span>
+                <br>
+                <br>
+                <span class="★">★4.7(103 sharhlar)</span>
+                <br>
+                <br>
+                <mark>38 000 so'm/oyiga</mark>
+                <br>
+                <br>
+                <br>
+                <span class="eskinarx"><del>222 000</del></span>
+                <br>
+                <span class="yanginarx">109 000 so'm</span>
+                <div class="salom"><img style="width: 35px; height: 35px; margin-left: 260px; margin-top: -50px;" src="https://icons.veryicon.com/png/o/miscellaneous/template-4/add-to-cart-4.png" alt=""></div>
+            </div>
+            <div class="cartss">
+                <img src="https://images.uzum.uz/cqmcfiffrr8a72r6q9s0/original.jpg" alt="">
+                <br>
+                <span class="mahsulot">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam, tempore!</span>
+                <br>
+                <br>
+                <span class="★">★4.7(103 sharhlar)</span>
+                <br>
+                <br>
+                <mark>43 679 so'm/oyiga</mark>
+                <br>
+                <br>
+                <br>
+                <span class="eskinarx"><del>1 000 233</del></span>
+                <br>
+                <span class="yanginarx">998 300 so'm</span>
+                <div class="salom"><img style="width: 35px; height: 35px; margin-left: 260px; margin-top: -50px;" src="https://icons.veryicon.com/png/o/miscellaneous/template-4/add-to-cart-4.png" alt=""></div>
+            </div>
+        </div>
+    
+    </div>
+
+    <br><br>
+    <br>
+    <br>
+    <div class="footer">
+
+        <div class="portion">
+            <ul>
+                <h1 style="font-size: 17px; font-weight: 600; text-align: center;">Biz haqimizda</h1>
+                <br>
+                <br>
+                <li>Topshirish punktlari</li>
+                <br>
+                <li>Vakansiyalar</li>
+            </ul>
+        </div>
+        <div class="portion">
+            <h1 style="font-size: 17px; font-weight: 600; text-align: center;">Foydalanuvchilarga</h1>
+                <br>
+                <br>
+                <li>Biz bilan bog'lanish</li>
+                <br>
+                <li>Savol-Javob</li>
+        </div>
+        <div class="portion">
+            <h1 style="font-size: 17px; font-weight: 600; text-align: center;">Tadbirkorlarga</h1>
+                <br>
+                <br>
+                <li>Uzumda soting</li>
+                <br>
+                <li>Sotuvchi kabinetiga kirish</li>
+        </div>
+        <div class="portion">
+            <h1 style="font-size: 17px; font-weight: 600; text-align: center;">ilovani yuklab olish</h1>
+            <br>
+            <span><i style="font-size: 27px; color: black; margin-left: 30px;" class="fa-brands fa-apple"></i> <span style="font-size: 16px; font-weight: 700; cursor: pointer;">Appstore</span></span> 
+            <span><i style="font-size: 20px; color: black; margin-left: 30px;" class="fa-brands fa-google-play"></i>  <span style="font-size: 16px; font-weight: 700; cursor: pointer; ">Google Play</span>  </span>
+            
+            <br>
+            <br>
+            <br>
+            <h1 style="font-size: 17px; font-weight: 600; text-align: center;">Uzum ijtimoiy tarmoqlarda</h1>
+            <div class="social_icons">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/1200px-Telegram_logo.svg.png" alt="">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUcP0ZcWRME2hXax1sPPgNtutzs7H0ZQv2vw&s" alt="">
+                <img src="https://cdn-icons-png.flaticon.com/256/1384/1384060.png" alt="">
+            </div>
+        </div>
+        <br>
+        <br>
+
+    </div>
+
+    <hr>
+
+    <br>
+
+    <div class="yakun">This official website demo created by <span>Ozodbek Ermatov</span>. Contact with me: <span style="color: red;">+998 (33) 675 20 12</span>.</div>
+
+    
+
+</body>
+
+</html>
